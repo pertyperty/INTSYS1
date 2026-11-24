@@ -14,6 +14,10 @@ return [
     |
     */
 
+    'sandig' => [
+        'token' => env('SANDIG_SERVICE_TOKEN'),
+    ],
+
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
     ],
